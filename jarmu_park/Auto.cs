@@ -25,6 +25,23 @@ namespace jarmu_park
             this.megtehetoKm = 0;
 
         }
+        public double KM 
+        {
+            get { return km; }
+        }
+        public double UZEMANYAG
+        {
+            get { return uzemAnyag; }
+        }
+        public double FOGYASZTAS
+        {
+            get { return fogyaszt; }
+        }
+        public double MEGTEHETOKM
+        {
+            get { return megtehetoKm; }
+        }
+
         private void Megteheto()
         {
             megtehetoKm = uzemAnyag / fogyaszt * 100;

@@ -25,10 +25,13 @@ namespace jarmu_park
             lada.Megy(km);
             lada.Allapot();
 
+            Console.WriteLine($"Maradt: {lada.UZEMANYAG} l - {lada.MEGTEHETOKM} km.");
+
             Console.WriteLine("Mennyit megy a trabant: ");
             int km2 = int.Parse(Console.ReadLine());
             trabant.Megy(km2);
             trabant.Allapot();
+
 
             Console.ReadKey();
         }
